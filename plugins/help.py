@@ -14,5 +14,5 @@ async def help(bot, message):
         "◉ Download playlist - <i>Send any link of a YouTube playlist</i>\n"
         "◉ Playlist audio download - <code>/playlist_aud link</code>",
         reply_markup=BUTTONS,
-        parse_mode="html"  # ✅ lowercase fixed
+        parse_mode="HTML"  # ✅ uppercase fixed
     )
