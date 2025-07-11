@@ -19,6 +19,6 @@ async def help(bot, message):
         "◉ Download videos from playlist in audio format\n"
         "     /playlist_aud - link of the playlist",
         reply_markup=BUTTONS,
-        parse_mode="html",
+        parse_mode="HTML",
         disable_web_page_preview=True
     )
