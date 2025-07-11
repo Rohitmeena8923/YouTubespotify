@@ -12,6 +12,5 @@ async def start(bot, message):
         "This bot can search and download YouTube videos and playlists.\n"
         "Use /help to learn how to use the bot.",
         reply_markup=START_BUTTONS,
-        parse_mode="html"  # ✅ lowercase fixed
+        parse_mode="html"
     )
-)
