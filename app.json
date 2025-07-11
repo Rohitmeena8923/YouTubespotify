@@ -1,0 +1,32 @@
+{
+  "name": "YouTube Video Download Bot",
+  "description": "Telegram bot that can search and download YouTube videos and playlists.",
+  "repository": "https://github.com/KINGSKR/youtube-bot-telegram",
+  "logo": "https://raw.githubusercontent.com/KINGSKR/youtube-bot-telegram/main/logo.png",
+  "keywords": [
+    "youtube bot",
+    "video downloader",
+    "pyrogram bot",
+    "playlists downloader",
+    "Telegram bot"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get from my.telegram.org/apps",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get from Telegram's @BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
