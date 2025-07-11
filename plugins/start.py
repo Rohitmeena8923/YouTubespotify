@@ -19,5 +19,5 @@ async def start(bot, message):
         "● /playlist_aud - <i>link</i> :- To download playlist videos in audio format\n"
         "● /help :- For more info.",
         reply_markup=reply_markup,
-        parse_mode="html"
+        parse_mode="HTML"
     )
