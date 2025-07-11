@@ -1,5 +1,5 @@
-pyrogram
-tgcrypto
+pyrogram==2.0.106
 pytube
 youtube-search-python
 flask
+tgcrypto
